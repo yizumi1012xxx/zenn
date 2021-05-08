@@ -7,5 +7,10 @@
   "license": "MIT",
   "devDependencies": {
     "zenn-cli": "^0.1.79"
+  },
+  "scripts": {
+    "create": "npx zenn new:article",
+    "preview": "npx zenn preview",
+    "image": "open https://zenn.dev/dashboard/uploader"
   }
 }
